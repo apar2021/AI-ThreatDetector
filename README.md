@@ -1,3 +1,3 @@
-# RAG-app
+# AI CyberSecurity Threat Detector
 
-This is our project. We coded this in Python utilizing the following python packages. 
+
