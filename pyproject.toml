@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ai-cyberdetector"
+version = "0.1.0"
+description = ""
+authors = ["apar2021 <apar2021@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.115.7"}
+uvicorn = "^0.34.0"
+scapy = "^2.6.1"
+pyshark = "^0.6"
+openai = "^1.60.0"
+pandas = "^2.2.3"
+sqlalchemy = "^2.0.37"
+gym = "^0.26.2"
+stable-baselines3 = "^2.4.1"
+python-multipart = "^0.0.20"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
